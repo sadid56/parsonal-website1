@@ -197,3 +197,37 @@ main section{
 
 /* footer part start */
 
+.footer{
+    height: 350px;
+    background-color: beige;
+    display: flex;
+    padding: 130px 150px;
+    margin-top: 50px;
+    gap: 100px;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 100px;
+    border: 0;
+}
+.footer .footer-column1 , .footer-column2{
+    width: 50%;
+}
+.footer-icon a > i{
+    color: hotpink;
+    padding-right: 10px;
+}
+.footer-icon a > i:hover{
+    color: navy;
+}
+#last-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+/* finished */
